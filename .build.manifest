@@ -1,4 +1,6 @@
+.DS_Store
 .packages
+audio/8761664267698-bf7vb8ncaqb000fvlibg.wav
 css/bootstrap.min.css
 css/style.css
 favicon.ico
@@ -10,6 +12,8 @@ images/main-background.jpg
 images/paperTitle-L.png
 images/paperTitle-S.png
 index.html
+js/jquery-3.3.1.slim.min.js
+js/popper.min.js
 main.dart.js
 packages/$sdk/_internal/ddc_sdk.sum
 packages/$sdk/_internal/strong.sum
