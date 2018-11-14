@@ -32,7 +32,7 @@ header .paperHeader {
     .paperContainer .heroArea-image {
       padding-top: 20px;
       padding-left: 0;
-      background-image: url("../images/default_landscape.jpg");
+      background-image: url("../images/default_header.png");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center; }
