@@ -5287,7 +5287,7 @@ return P.bb(F.bV(),$async$bg)
 case 3:w=p.k(b,"$isE")
 if(w!=null){v=document
 C.c.u(v,".heroImg-title").textContent=H.n(w.i(0,"reporter_pro_shop_name"))
-if(!(J.J(w.i(0,"reporter_pro_shop_pic"),"\u76ee\u524d\u6c92\u6709\u7167\u7247\u53ef\u4ee5\u5206\u4eab")||J.J(w.i(0,"reporter_pro_shop_pic"),""))){u=C.c.u(v,".heroArea-image.col-10").style
+if(!(J.J(w.i(0,"reporter_pro_shop_pic"),"\u76ee\u524d\u6c92\u6709\u7167\u7247\u53ef\u4ee5\u5206\u4eab")||J.J(w.i(0,"reporter_pro_shop_pic"),""))){u=C.c.u(v,".heroArea-image.col-8.col-md-10").style
 t='url("'+H.i(w.i(0,"reporter_pro_shop_pic"))+'")'
 u.backgroundImage=t}C.c.u(v,"#address").textContent=J.ab(w.i(0,"reporter_pro_shop_loc"))
 C.c.u(v,"#open_time").textContent=H.n(w.i(0,"reporter_pro_shop_time"))
