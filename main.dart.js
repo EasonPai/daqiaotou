@@ -1,4 +1,4 @@
- (function(){var supportsDirectProtoAccess=function(){var z=function(){}
+(function(){var supportsDirectProtoAccess=function(){var z=function(){}
 z.prototype={p:{}}
 var y=new z()
 if(!(y.__proto__&&y.__proto__.p===z.prototype.p))return false
