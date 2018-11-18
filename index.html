@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="scaffolded-by" content="https://github.com/google/stagehand">
     <title>蘭州報</title>
-    <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.ico">
     <script defer src="main.dart.js"></script>
 
@@ -65,7 +64,7 @@
     <div class="contentArea">
         <div class="row">
             <div class="contentLeft col-6">
-                <div class="Article row">
+                <div id="host_container" class="Article row">
                     <div class="col-12 col-md-6">
                         <h5 class="Article-title">訪談<span id="hostName">讀取中...</span></h5>
                         <div id="boss_container">
@@ -74,6 +73,9 @@
                                 <source id="boss_wav" src='./audio/8761664267698-bf7vb8ncaqb000fvlibg.wav' type="audio/wav"/>
                                 Your browser does not support the audio element.
                             </audio>
+                        </div>
+                        <div>
+                            <button type="button" class="btn-style btn btn-outline-danger" data-toggle="modal" data-whatever="">編輯</button>
                         </div>
                     </div>
                     <div class="Article-images col-12 col-md-6">
@@ -93,6 +95,9 @@
                     <div class="Article-images">
                         <img src="images/articleImage-store.jpg">
                     </div>
+                    <div>
+                        <button type="button" class="btn-style btn btn-outline-danger" data-toggle="modal" data-whatever="">編輯</button>
+                    </div>
                 </div>
                 <div id="feature_container" class="Article col-12">
                     <h5 class="Article-title">店家的特色</h5>
@@ -106,6 +111,9 @@
                     <div class="Article-images" style="display: none;">
                         <img src="images/articleImage-store.jpg">
                     </div>
+                    <div>
+                        <button type="button" class="btn-style btn btn-outline-danger" data-toggle="modal" data-whatever="">編輯</button>
+                    </div>
                 </div>
                 <div id="extra2_container" class="Article col-12" style="display: none">
                     <h5 class="Article-title">對於想要投入相關工作新鮮人的建議</h5>
@@ -118,6 +126,9 @@
                             <source src="" type="audio/wav" />
                             Your browser does not support this audio format.
                         </audio>
+                    </div>
+                    <div>
+                        <button type="button" class="btn-style btn btn-outline-danger" data-toggle="modal" data-whatever="">編輯</button>
                     </div>
                 </div>
             </div>
@@ -134,6 +145,9 @@
                     <div class="Article-images" style="display: none;">
                         <img src="images/articleImage-store.jpg">
                     </div>
+                    <div>
+                        <button type="button" class="btn-style btn btn-outline-danger" data-toggle="modal" data-whatever="">編輯</button>
+                    </div>
                 </div>
                 <div id="story_container" class="Article col-12">
                     <h5 class="Article-title">工作中的甘苦談</h5>
@@ -146,6 +160,9 @@
                     </div>
                     <div class="Article-images">
                         <img src="images/articleImage-store.jpg">
+                    </div>
+                    <div>
+                        <button type="button" class="btn-style btn btn-outline-danger" data-toggle="modal" data-whatever="">編輯</button>
                     </div>
                 </div>
                 <div id="extra1_container" class="Article col-12" style="display: none">
@@ -160,6 +177,9 @@
                             Your browser does not support this audio format.
                         </audio>
                     </div>
+                    <div>
+                        <button type="button" class="btn-style btn btn-outline-danger" data-toggle="modal" data-whatever="">編輯</button>
+                    </div>
                 </div>
                 <div id="extra3_container" class="Article col-12" style="display: none">
                     <h5 class="Article-title">對於想要投入相關工作新鮮人的建議</h5>
@@ -173,6 +193,34 @@
                             Your browser does not support this audio format.
                         </audio>
                     </div>
+                    <div>
+                        <button type="button" class="btn-style btn btn-outline-danger" data-toggle="modal" data-whatever="">編輯</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modalBackdrop" class="modal-backdrop fade" style="display: none;"></div>
+    <div class="modal fade bd-example-modal-lg" id="modalView" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">編輯成你想要的新文字</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="message-text" class="col-form-label"></label>
+                            <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-outline-primary">確定</button>
                 </div>
             </div>
         </div>
