@@ -1,7 +1,6 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
 body {
   background-image: url("../images/main-background.jpg");
-  background-size: 100%;
   background-repeat: repeat-y;
   font-family: 'Noto Sans TC', sans-serif !important; }
   @media only screen and (max-width: 576px) {
@@ -15,7 +14,8 @@ body {
 
 header .paperHeader {
   padding: 40px 0 15px;
-  border-bottom: 2px #314165 solid; }
+  border-bottom: 2px #314165 solid;
+  margin: 0 auto; }
   header .paperHeader-date {
     font-weight: 300;
     font-size: 16px; }
@@ -27,8 +27,11 @@ header .paperHeader {
 .paperContainer {
   padding: 0; }
   .paperContainer .heroArea {
-    padding: 35px 0 40px;
+    padding: 35px 0;
     border-bottom: 1px black solid; }
+    @media only screen and (max-width: 576px) {
+          .paperContainer .heroArea {
+            padding: 35px 0 0; } }
     .paperContainer .heroArea-image {
       padding-top: 20px;
       padding-left: 0;
@@ -37,12 +40,17 @@ header .paperHeader {
       background-repeat: no-repeat;
       background-position: center; }
       .paperContainer .heroArea-image .heroImg-info {
-        text-align: right;
+        padding-left: 20px;
         color: white;
         text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5); }
-        .paperContainer .heroArea-image .heroImg-info .heroImg-list {
+        .storeInfo, .paperInfo{
+          padding: 10px 0 !important;
+        }
+        .heroImg-list {
+          padding-left: 0;
           list-style: none;
-          font-weight: 300; }
+          font-weight: 300;
+          font-size: 14px; }
     .paperContainer .heroArea-title {
       padding-right: 0; }
       .paperContainer .heroArea-title .paperInfo {
@@ -56,8 +64,9 @@ header .paperHeader {
             padding: 5px; } }
         .paperContainer .heroArea-title .paperInfo .titleImg-L {
           margin-bottom: 10px; }
-        .paperContainer .heroArea-title .paperInfo-list {
+        .paperInfo .paperInfo-list {
           padding-left: 0;
+          text-align: right;
           list-style: none;
           font-size: 14px;
           font-weight: 300; }
@@ -66,15 +75,8 @@ header .paperHeader {
     .paperContainer .contentArea .contentLeft {
       padding-left: 0;
       border-right: 1px #979797 solid; }
-      @media only screen and (max-width: 576px) {
-        .paperContainer .contentArea .contentLeft {
-          padding-right: 0;
-          border-right: 0; } }
     .paperContainer .contentArea .contentRight {
       padding-right: 0; }
-      @media only screen and (max-width: 576px) {
-        .paperContainer .contentArea .contentRight {
-          padding-left: 0; } }
     .paperContainer .contentArea .Article {
         padding: 15px 0 5px;
         border-bottom: 1px #959595 solid;

@@ -24,157 +24,161 @@
 
 <body>
 
-  <div id="loading">讀取中，請稍候</div>
-  <header>
-      <div class="container paperHeader">
-          <div class="row">
-              <div class="paperHeader-date col-8">讀取中...</div>
-              <div class="paperHeader-title col-4">
-                  <img class="titleImg-S" src="images/paperTitle-S.png">
-              </div>
-          </div>
-      </div>
-  </header>
-  <div class="container paperContainer" style="display: none">
-      <div class="row heroArea">
-          <div class="heroArea-image col-8 col-md-10">
-              <div class="heroImg-info">
-                  <h2 class="h1 heroImg-title">讀取中...</h2>
-                  <ul class="heroImg-list">
-                      <li id="address">地址：</li>
-                      <li id="open_time">營業時間：</li>
-                  </ul>
-              </div>
-          </div>
-          <div class="heroArea-title col-4 col-md-2">
-              <div class="titleImg"></div>
-              <div class="paperInfo">
-                  <img class="titleImg-L" src="images/paperTitle-L.png">
-                  <ul class="paperInfo-list">
-                      <li>發行人：蘭州國中</li>
-                      <li>編輯：<span id="authors">讀取中...</span></li>
-                      <li>執行規劃：大橋工舍</li>
-                  </ul>
-              </div>
-          </div>
-      </div>
-      <div class="contentArea">
-          <div class="row">
-              <div class="contentLeft col-12 col-md-6">
-                  <div class="Article row">
-                      <div class="col-6">
-                          <h5 class="Article-title">訪談<span id="boss_name">讀取中...</span></h5>
-                          <div id="boss_container">
-                              <p id="boss_content" class="Article-content">讀取中...</p>
-                              <audio id="boss_audio" style="width: 100%;" controls="controls">
-                                  <source id="boss_wav" src='./audio/8761664267698-bf7vb8ncaqb000fvlibg.wav' type="audio/wav"/>
-                                  Your browser does not support the audio element.
-                              </audio>
-                          </div>
-                      </div>
-                      <div class="Article-images col-6">
-                          <img id="boss_pic" src="images/default_ portrait.jpg">
-                          <span class="Article-imgDescription">從事這份工作有<span id="work_period">10年的時間</span>。</span>
-                      </div>
-                  </div>
-                  <div id="reason_container" class="Article col-12">
-                      <h5 class="Article-title">工作中的甘苦談</h5>
-                      <p class="Article-content">空內，江佶洋保留大量阿公的齒科診療工具與設備，他堅持僅清潔、整修，不做翻新塗裝，迄今訪客進門參觀，還可以台灣少數保存下來、外表木作斑駁的早期齒科空壓機儀器，以及診療椅、齒模、工具櫃、招牌匾額等等傢私。</p>
-                      <div class="Article-audio">
-                          <audio style="width: 100%;" controls="controls">
-                              <source src="" type="audio/wav" />
-                              Your browser does not support this audio format.
-                          </audio>
-                      </div>
-                      <div class="Article-images">
-                          <img src="images/articleImage-store.jpg">
-                      </div>
-                  </div>
-                  <div id="feature_container" class="Article col-12">
-                      <h5 class="Article-title">店家的特色</h5>
-                      <p class="Article-content">這空間不僅僅是紀念阿公之用，也是江佶洋的光試驗場。他減去光差大的頂光，而是經過精密計算，採用精準、多層次的間接燈照明，達到美學與實用兼具的功能。他表示，台灣大部份室內都是用了過多、無用的光源，他如此布局光線不但可以讓每一盞燈發揮，也可簡省大量光源耗費，十分環保；他更公開工作室開張第一電費帳單只有一百三十三元，迄今兩個月一期的電費平均僅有一百多元，夏季電費頂多一千七百多元而已。「很多人不知道燈光耗電，台灣人喜歡看數字，我就用數字證明」江佶洋驕傲地表示。</p>
-                      <div class="Article-audio">
-                          <audio style="width: 100%;" controls="controls">
-                              <source src="" type="audio/wav" />
-                              Your browser does not support this audio format.
-                          </audio>
-                      </div>
-                      <div class="Article-images" style="display: none;">
-                          <img src="images/articleImage-store.jpg">
-                      </div>
-                  </div>
-                  <div id="extra2_container" class="Article col-12" style="display: none">
-                      <h5 class="Article-title">對於想要投入相關工作新鮮人的建議</h5>
-                      <p class="Article-content">前身為外公齒科診所「民新齒科醫院」，燈光設計師江佶洋為了紀念這行醫助人、撐起三代家庭經濟的阿公，2013年底將藏在心裡十一年載的願望，訴諸行動：把阿公診所保留並改造為「瓦豆.光田」工作室。此新舊融合的空間美學與巧思，2014年更一舉拿下台北老屋新造的金獎。</p>
-                      <div class="Article-images">
-                          <img src="images/articleImage-store.jpg">
-                      </div>
-                      <div class="Article-audio">
-                          <audio style="width: 100%;" controls="controls">
-                              <source src="" type="audio/wav" />
-                              Your browser does not support this audio format.
-                          </audio>
-                      </div>
-                  </div>
-              </div>
-              <div class="contentRight col-12 col-md-6">
-                  <div id="suggest_container" class="Article col-12">
-                      <h5 class="Article-title">對於想要投入相關工作新鮮人的建議</h5>
-                      <p class="Article-content">前身為外公齒科診所「民新齒科醫院」，燈光設計師江佶洋為了紀念這行醫助人、撐起三代家庭經濟的阿公，2013年底將藏在心裡十一年載的願望，訴諸行動：把阿公診所保留並改造為「瓦豆.光田」工作室。此新舊融合的空間美學與巧思，2014年更一舉拿下台北老屋新造的金獎。</p>
-                      <div class="Article-audio">
-                          <audio style="width: 100%;" controls="controls">
-                              <source src="" type="audio/wav" />
-                              Your browser does not support this audio format.
-                          </audio>
-                      </div>
-                      <div class="Article-images" style="display: none;">
-                          <img src="images/articleImage-store.jpg">
-                      </div>
-                  </div>
-                  <div id="story_container" class="Article col-12">
-                      <h5 class="Article-title">工作中的甘苦談</h5>
-                      <p class="Article-content">空內，江佶洋保留大量阿公的齒科診療工具與設備，他堅持僅清潔、整修，不做翻新塗裝，迄今訪客進門參觀，還可以台灣少數保存下來、外表木作斑駁的早期齒科空壓機儀器，以及診療椅、齒模、工具櫃、招牌匾額等等傢私。</p>
-                      <div class="Article-audio">
-                          <audio style="width: 100%;" controls="controls">
-                              <source src="" type="audio/wav" />
-                              Your browser does not support this audio format.
-                          </audio>
-                      </div>
-                      <div class="Article-images">
-                          <img src="images/articleImage-store.jpg">
-                      </div>
-                  </div>
-                  <div id="extra1_container" class="Article col-12" style="display: none">
-                      <h5 class="Article-title">對於想要投入相關工作新鮮人的建議</h5>
-                      <p class="Article-content">前身為外公齒科診所「民新齒科醫院」，燈光設計師江佶洋為了紀念這行醫助人、撐起三代家庭經濟的阿公，2013年底將藏在心裡十一年載的願望，訴諸行動：把阿公診所保留並改造為「瓦豆.光田」工作室。此新舊融合的空間美學與巧思，2014年更一舉拿下台北老屋新造的金獎。</p>
-                      <div class="Article-images">
-                          <img src="images/articleImage-store.jpg">
-                      </div>
-                      <div class="Article-audio">
-                          <audio style="width: 100%;" controls="controls">
-                              <source src="" type="audio/wav" />
-                              Your browser does not support this audio format.
-                          </audio>
-                      </div>
-                  </div>
-                  <div id="extra3_container" class="Article col-12" style="display: none">
-                      <h5 class="Article-title">對於想要投入相關工作新鮮人的建議</h5>
-                      <p class="Article-content">前身為外公齒科診所「民新齒科醫院」，燈光設計師江佶洋為了紀念這行醫助人、撐起三代家庭經濟的阿公，2013年底將藏在心裡十一年載的願望，訴諸行動：把阿公診所保留並改造為「瓦豆.光田」工作室。此新舊融合的空間美學與巧思，2014年更一舉拿下台北老屋新造的金獎。</p>
-                      <div class="Article-images">
-                          <img src="images/articleImage-store.jpg">
-                      </div>
-                      <div class="Article-audio">
-                          <audio style="width: 100%;" controls="controls">
-                              <source src="" type="audio/wav" />
-                              Your browser does not support this audio format.
-                          </audio>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-  <footer>
-  </footer>
+<div id="loading">讀取中，請稍候</div>
+<header>
+    <div class="container paperHeader">
+        <div class="row">
+            <div class="paperHeader-date col-8">讀取中...</div>
+            <div class="paperHeader-title col-4">
+                <img class="titleImg-S" src="images/paperTitle-S.png">
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container paperContainer" style="display: none">
+    <div class="row heroArea">
+        <div class="heroArea-image col-10">
+            <div class="heroImg-info">
+                <h2 class="h1 heroImg-title">讀取中...</h2>
+            </div>
+        </div>
+        <div class="heroArea-title col-2">
+            <div class="titleImg"></div>
+            <div class="paperInfo">
+                <img class="titleImg-L" src="images/paperTitle-L.png">
+            </div>
+        </div>
+        <div class="col-6 storeInfo">
+            <ul class="heroImg-list">
+                <li>地址：<span id="address"></span></li>
+                <li>營業時間：<span id="openingTime"></span></li>
+            </ul>
+        </div>
+        <div class="paperInfo col-6">
+            <ul class="paperInfo-list">
+                <li>發行人：蘭州國中</li>
+                <li>編輯：<span id="authors">讀取中...</span></li>
+                <li>執行規劃：大橋工舍</li>
+            </ul>
+        </div>
+    </div>
+    <div class="contentArea">
+        <div class="row">
+            <div class="contentLeft col-6">
+                <div class="Article row">
+                    <div class="col-12 col-md-6">
+                        <h5 class="Article-title">訪談<span id="hostName">讀取中...</span></h5>
+                        <div id="boss_container">
+                            <p id="boss_content" class="Article-content">讀取中...</p>
+                            <audio id="boss_audio" style="width: 100%;" controls="controls">
+                                <source id="boss_wav" src='./audio/8761664267698-bf7vb8ncaqb000fvlibg.wav' type="audio/wav"/>
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+                    <div class="Article-images col-12 col-md-6">
+                        <img id="boss_pic" src="images/default_ portrait.jpg">
+                        <span class="Article-imgDescription">從事這份工作有<span id="work_period">10年的時間</span>。</span>
+                    </div>
+                </div>
+                <div id="reason_container" class="Article col-12">
+                    <h5 class="Article-title">工作中的甘苦談</h5>
+                    <p class="Article-content">空內，江佶洋保留大量阿公的齒科診療工具與設備，他堅持僅清潔、整修，不做翻新塗裝，迄今訪客進門參觀，還可以台灣少數保存下來、外表木作斑駁的早期齒科空壓機儀器，以及診療椅、齒模、工具櫃、招牌匾額等等傢私。</p>
+                    <div class="Article-audio">
+                        <audio style="width: 100%;" controls="controls">
+                            <source src="" type="audio/wav" />
+                            Your browser does not support this audio format.
+                        </audio>
+                    </div>
+                    <div class="Article-images">
+                        <img src="images/articleImage-store.jpg">
+                    </div>
+                </div>
+                <div id="feature_container" class="Article col-12">
+                    <h5 class="Article-title">店家的特色</h5>
+                    <p class="Article-content">這空間不僅僅是紀念阿公之用，也是江佶洋的光試驗場。他減去光差大的頂光，而是經過精密計算，採用精準、多層次的間接燈照明，達到美學與實用兼具的功能。他表示，台灣大部份室內都是用了過多、無用的光源，他如此布局光線不但可以讓每一盞燈發揮，也可簡省大量光源耗費，十分環保；他更公開工作室開張第一電費帳單只有一百三十三元，迄今兩個月一期的電費平均僅有一百多元，夏季電費頂多一千七百多元而已。「很多人不知道燈光耗電，台灣人喜歡看數字，我就用數字證明」江佶洋驕傲地表示。</p>
+                    <div class="Article-audio">
+                        <audio style="width: 100%;" controls="controls">
+                            <source src="" type="audio/wav" />
+                            Your browser does not support this audio format.
+                        </audio>
+                    </div>
+                    <div class="Article-images" style="display: none;">
+                        <img src="images/articleImage-store.jpg">
+                    </div>
+                </div>
+                <div id="extra2_container" class="Article col-12" style="display: none">
+                    <h5 class="Article-title">對於想要投入相關工作新鮮人的建議</h5>
+                    <p class="Article-content">前身為外公齒科診所「民新齒科醫院」，燈光設計師江佶洋為了紀念這行醫助人、撐起三代家庭經濟的阿公，2013年底將藏在心裡十一年載的願望，訴諸行動：把阿公診所保留並改造為「瓦豆.光田」工作室。此新舊融合的空間美學與巧思，2014年更一舉拿下台北老屋新造的金獎。</p>
+                    <div class="Article-images">
+                        <img src="images/articleImage-store.jpg">
+                    </div>
+                    <div class="Article-audio">
+                        <audio style="width: 100%;" controls="controls">
+                            <source src="" type="audio/wav" />
+                            Your browser does not support this audio format.
+                        </audio>
+                    </div>
+                </div>
+            </div>
+            <div class="contentRight col-6">
+                <div id="suggest_container" class="Article col-12">
+                    <h5 class="Article-title">對於想要投入相關工作新鮮人的建議</h5>
+                    <p class="Article-content">前身為外公齒科診所「民新齒科醫院」，燈光設計師江佶洋為了紀念這行醫助人、撐起三代家庭經濟的阿公，2013年底將藏在心裡十一年載的願望，訴諸行動：把阿公診所保留並改造為「瓦豆.光田」工作室。此新舊融合的空間美學與巧思，2014年更一舉拿下台北老屋新造的金獎。</p>
+                    <div class="Article-audio">
+                        <audio style="width: 100%;" controls="controls">
+                            <source src="" type="audio/wav" />
+                            Your browser does not support this audio format.
+                        </audio>
+                    </div>
+                    <div class="Article-images" style="display: none;">
+                        <img src="images/articleImage-store.jpg">
+                    </div>
+                </div>
+                <div id="story_container" class="Article col-12">
+                    <h5 class="Article-title">工作中的甘苦談</h5>
+                    <p class="Article-content">空內，江佶洋保留大量阿公的齒科診療工具與設備，他堅持僅清潔、整修，不做翻新塗裝，迄今訪客進門參觀，還可以台灣少數保存下來、外表木作斑駁的早期齒科空壓機儀器，以及診療椅、齒模、工具櫃、招牌匾額等等傢私。</p>
+                    <div class="Article-audio">
+                        <audio style="width: 100%;" controls="controls">
+                            <source src="" type="audio/wav" />
+                            Your browser does not support this audio format.
+                        </audio>
+                    </div>
+                    <div class="Article-images">
+                        <img src="images/articleImage-store.jpg">
+                    </div>
+                </div>
+                <div id="extra1_container" class="Article col-12" style="display: none">
+                    <h5 class="Article-title">對於想要投入相關工作新鮮人的建議</h5>
+                    <p class="Article-content">前身為外公齒科診所「民新齒科醫院」，燈光設計師江佶洋為了紀念這行醫助人、撐起三代家庭經濟的阿公，2013年底將藏在心裡十一年載的願望，訴諸行動：把阿公診所保留並改造為「瓦豆.光田」工作室。此新舊融合的空間美學與巧思，2014年更一舉拿下台北老屋新造的金獎。</p>
+                    <div class="Article-images">
+                        <img src="images/articleImage-store.jpg">
+                    </div>
+                    <div class="Article-audio">
+                        <audio style="width: 100%;" controls="controls">
+                            <source src="" type="audio/wav" />
+                            Your browser does not support this audio format.
+                        </audio>
+                    </div>
+                </div>
+                <div id="extra3_container" class="Article col-12" style="display: none">
+                    <h5 class="Article-title">對於想要投入相關工作新鮮人的建議</h5>
+                    <p class="Article-content">前身為外公齒科診所「民新齒科醫院」，燈光設計師江佶洋為了紀念這行醫助人、撐起三代家庭經濟的阿公，2013年底將藏在心裡十一年載的願望，訴諸行動：把阿公診所保留並改造為「瓦豆.光田」工作室。此新舊融合的空間美學與巧思，2014年更一舉拿下台北老屋新造的金獎。</p>
+                    <div class="Article-images">
+                        <img src="images/articleImage-store.jpg">
+                    </div>
+                    <div class="Article-audio">
+                        <audio style="width: 100%;" controls="controls">
+                            <source src="" type="audio/wav" />
+                            Your browser does not support this audio format.
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+</footer>
 </body>
 </html>
