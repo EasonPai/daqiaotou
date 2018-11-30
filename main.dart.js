@@ -5832,7 +5832,7 @@ return P.bo(F.cb(),$async$bt)
 case 3:w=q.l(b,"$isA")
 $.y=w
 if(w!=null){w=document
-C.c.q(w,".heroImg-title").textContent="\u8a2a\u8ac7"+H.h($.$get$y().i(0,"reporter_pro_shop_name"))
+C.c.q(w,".heroImg-title").textContent=""
 if(!(J.G($.$get$y().i(0,"reporter_pro_shop_pic"),"\u76ee\u524d\u6c92\u6709\u7167\u7247\u53ef\u4ee5\u5206\u4eab")||J.G($.$get$y().i(0,"reporter_pro_shop_pic"),""))){v=C.c.q(w,".heroArea-image.col-10").style
 u='url("'+H.h($.$get$y().i(0,"reporter_pro_shop_pic"))+'")'
 v.backgroundImage=u}C.c.q(w,"#address").textContent=J.ai($.$get$y().i(0,"reporter_pro_shop_loc"))
@@ -5981,6 +5981,8 @@ z=this.a
 y=this.b
 P.b6("containerSel = "+z+", contentKey = "+y)
 P.b6("state = "+H.h($.$get$y().i(0,y)))
+x=$.$get$y().i(0,y)==null
+if(x)return
 x=H.o($.$get$y().i(0,y))
 w=document
 v=[P.c]
