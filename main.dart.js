@@ -5906,8 +5906,7 @@ z.display="none"
 z=C.c.q(y,a+" .Article-audio").style
 z.display="none"}else if(H.bq(J.bx($.$get$y().i(0,b),".wav"))){H.l(C.c.q(y,a+" .Article-audio source"),"$iscK").src=H.o($.$get$y().i(0,b))
 F.aK(a+" .Article-content",null)
-z=C.c.q(y,a+" .Article-content")
-z.textContent=H.o(J.G($.$get$y().i(0,b),"\u6216\u662f\u8df3\u904e\u9019\u984c")?"":$.$get$y().i(0,b))
+C.c.q(y,a+" .Article-content").textContent=""
 F.aK(a+" .Article-audio",null)
 F.de(a,d,"")}else{z=C.c.q(y,a+" .Article-audio").style
 z.display="none"
@@ -6271,7 +6270,7 @@ $.v=C.e
 $.eZ=null
 $.d_=null
 $.d6=null
-$.lv=!0
+$.lv=!1
 $.cd=""
 $.d5="1c26a8a0-6f10-11e8-c1c6-b5b027404b88"
 $.fv=!1
