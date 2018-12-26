@@ -5836,7 +5836,7 @@ return P.bs(F.cf(),$async$bz)
 case 2:x=v.l(b,"$isA")
 $.y=x
 if(x!=null){x=document
-C.c.l(x,".heroImg-title").textContent=""
+C.c.l(x,".heroImg-title").textContent="\u8a2a\u8ac7\u300c"+H.i($.$get$y().i(0,"reporter_pro_shop_bossname"))+"\u300d"
 if(!(J.G($.$get$y().i(0,"reporter_pro_shop_pic"),"\u76ee\u524d\u6c92\u6709\u7167\u7247\u53ef\u4ee5\u5206\u4eab")||J.G($.$get$y().i(0,"reporter_pro_shop_pic"),""))){w=C.c.l(x,".heroArea-image.col-10").style
 w.backgroundImage='url("")'
 H.Y(C.c.l(x,".heroImg"),"$isat").src=H.o($.$get$y().i(0,"reporter_pro_shop_pic"))}C.c.l(x,"#address").textContent=J.al($.$get$y().i(0,"reporter_pro_shop_loc"))
