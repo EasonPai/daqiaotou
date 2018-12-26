@@ -11,8 +11,6 @@ body {
     margin-bottom: 10px; }
   body .btn-style {
     margin-bottom: 15px; }
-  body .d-print-hide {
-    display: none; }
 
 header .paperHeader {
   padding: 40px 0 15px;
@@ -35,29 +33,16 @@ header .paperHeader {
           .paperContainer .heroArea {
             padding: 35px 0 0; } }
     .paperContainer .heroArea-image {
-      position: relative;
-      padding:  0;
-      height: 493px;
+      padding-top: 20px;
+      padding-left: 0;
       background-image: url("../images/default_landscape.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center; }
       .paperContainer .heroArea-image .heroImg-info {
-        padding-left: 0px;
-        height: 100%;
-        width: 100%;
+        padding-left: 20px;
         color: white;
         text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5); }
-      .paperContainer .heroArea-image .heroImg-title {
-        position: absolute;
-        top:  1.4rem;
-        left: 0.7rem;
-      }
-      .paperContainer .heroArea-image .heroImg-info img{
-        width:  100%;
-        height:  100%;
-        margin-bottom: 0;
-      }
         .storeInfo, .paperInfo{
           padding: 10px 0 !important;
         }
@@ -65,7 +50,7 @@ header .paperHeader {
           padding-left: 0;
           list-style: none;
           font-weight: 300;
-          font-size: 1.1rem; }
+          font-size: 14px; }
     .paperContainer .heroArea-title {
       padding-right: 0; }
       .paperContainer .heroArea-title .paperInfo {
@@ -73,14 +58,17 @@ header .paperHeader {
         background-repeat: repeat-y;
         background-size: 100%;
         border: 4px #32456F solid;
-        padding: 40px 20px !important; }
+        padding: 15px; }
+        @media only screen and (max-width: 576px) {
+          .paperContainer .heroArea-title .paperInfo {
+            padding: 5px; } }
         .paperContainer .heroArea-title .paperInfo .titleImg-L {
           margin-bottom: 10px; }
         .paperInfo .paperInfo-list {
           padding-left: 0;
           text-align: right;
           list-style: none;
-          font-size: 1.1rem;
+          font-size: 14px;
           font-weight: 300; }
   .paperContainer .contentArea {
     padding: 35px 0 40px; }
@@ -93,49 +81,8 @@ header .paperHeader {
         padding: 15px 0 5px;
         border-bottom: 1px #959595 solid;
         margin: 0; }
-      .paperContainer .contentArea .Article-title {
-        font-size: 1.5rem;
-      }
       .paperContainer .contentArea .Article-content {
-        font-size: 1.3rem;
         font-weight: 300; }
       .paperContainer .contentArea .Article-imgDescription {
         font-size: 14px;
         font-weight: 300; }
-
-.paperContainer .contentArea .col-12, .paperContainer .contentArea .col-md-6 {
-  padding-left: 0;
-}
-        @media only screen and (max-width: 576px) {
-          .paperContainer .heroArea-title {
-            padding-left: 6px; }
-          .paperContainer .heroArea-title .paperInfo {
-            height: 180px;
-            padding: 8px !important;
-            border-width: 2px;
-          }
-          .paperContainer .heroArea-title .paperInfo .titleImg-L {
-            width: 100%;
-            height:  100%;
-            margin-bottom: 0;
-          }
-          .paperContainer .heroArea-image {
-            height:  180px;
-          }
-          .paperContainer .heroArea-image .heroImg-title {
-            font-size:  24px;
-          }
-          .paperContainer .contentArea .Article-title {
-            font-size: 16px;
-          }
-          .paperContainer .contentArea .Article-content {
-            font-size: 14px; }
-
-          .paperInfo .paperInfo-list, .heroImg-list {
-            font-size:  10px;
-          }
-          .paperContainer .contentArea {
-            padding-top: 10px;
-          }
-        }
-
