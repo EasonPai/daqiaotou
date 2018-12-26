@@ -75,7 +75,10 @@ header .paperHeader {
         border: 4px #32456F solid;
         padding: 40px 20px !important; }
         .paperContainer .heroArea-title .paperInfo .titleImg-L {
-          margin-bottom: 10px; }
+          width: 100%;
+          height:  auto;
+          margin-bottom: 0;
+        }
         .paperInfo .paperInfo-list {
           padding-left: 0;
           text-align: right;
@@ -111,7 +114,7 @@ header .paperHeader {
             padding-left: 6px; }
           .paperContainer .heroArea-title .paperInfo {
             height: 180px;
-            padding: 8px !important;
+            padding: 40px 8px !important;
             border-width: 2px;
           }
           .paperContainer .heroArea-title .paperInfo .titleImg-L {
